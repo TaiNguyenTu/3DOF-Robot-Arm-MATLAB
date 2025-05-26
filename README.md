@@ -1,38 +1,87 @@
-# 3-DOF Articulated Robot Arm – Kinematic Simulation in MATLAB
+# 🤖 3-DOF Articulated Robot Arm – Kinematic Simulation in MATLAB
 
-This project simulates the forward and inverse kinematics of a 3-degree-of-freedom articulated robotic arm using MATLAB. The system includes a user-friendly GUI built with `.fig` file and multiple functional `.m` scripts. The robot model is constructed using geometric primitives and visualized in 3D space.
+This project simulates the **forward and inverse kinematics** of a 3-DOF articulated robot arm using MATLAB. It features a full GUI interface, real-time 3D animation, trajectory planning, workspace visualization, and end-effector velocity/acceleration analysis.
 
-## 🔧 Features
-- Forward Kinematics: Compute end-effector position from joint angles.
-- Inverse Kinematics: Compute joint angles from desired end-effector coordinates.
-- Trajectory Planning: Generate smooth motion with velocity and acceleration control.
-- Kalman Filter: Apply filtering to end-effector signals (optional).
-- Animation: Real-time 3D visualization of robot movement.
-- GUI: Comprehensive control panel for entering inputs, toggling features, and viewing output plots.
+---
 
-## 📂 Key Files
-- `BTL_robot.fig`: Main GUI interface
-- `Forward_Kinematic.m`, `Inverse_Kinematic.m`: Core kinematic calculations
-- `plot_link1.m`, `plot_joint_velocity.m`, etc.: Plotting functions for robot animation
-- `calculate_Trajectory.m`: Trajectory generation logic
-- `kalman_filter.m`: Optional signal filtering
-- `button_forward.m`, `button_inverse.m`: GUI interaction handlers
+## 🎯 Key Features
 
-## 📷 GUI Preview
+- ✔️ **Forward Kinematics** – Compute end-effector position from joint angles  
+- ✔️ **Inverse Kinematics** – Solve multiple solutions, auto filter by joint limits  
+- ✔️ **Trajectory Planning** – Smooth motion with velocity/acceleration constraints  
+- ✔️ **Workspace Visualization** – Toggle workspace boundary  
+- ✔️ **Kalman Filter (optional)** – Smoothing velocity signal  
+- ✔️ **Real-time Animation** – Plot joint states and 3D movement  
+- ✔️ **Intuitive GUI** – Built with `.fig` file + button callbacks
 
-![GUI Screenshot](screenshots/gui_preview.png)
+---
 
-## 🛠 Requirements
-- MATLAB R2021a+
-- App Designer or GUIDE-compatible GUI environment
-- Control System Toolbox (optional but helpful)
+## 📸 Interface Snapshots
+
+### 🔧 Full GUI Overview
+![GUI](screenshots/GUI.png)
+
+### 🔄 Choosing Inverse Kinematic Solution
+![Choose IK](screenshots/choose_Inverse.png)
+
+### 🚫 Inverse Kinematic (No Trajectory)
+![IK only](screenshots/Inverse not Trajectory Planning.png)
+
+### ✅ Inverse Kinematic + Trajectory Planning
+![IK+Trajectory](screenshots/Inverse Trajectory Planning.png)
+
+### 🌀 Kinematic Mode (No Workspace)
+![Kinematic Only](screenshots/Kinematic not workspace.png)
+
+### 🌐 Workspace Visualization
+![Workspace](screenshots/kinematic workspace.png)
+
+---
+
+## 📁 Project Structure
+
+| File | Description |
+|------|-------------|
+| `BTL_robot.fig` | Main GUI layout |
+| `Forward_Kinematic.m` | Compute end-effector position |
+| `Inverse_Kinematic.m` | Solve θ1, θ2, θ3 from (x, y, z) |
+| `plot_*.m` | Visualization of motion and states |
+| `calculate_Trajectory.m` | Generate motion curves |
+| `kalman_filter.m` | Signal smoothing |
+| `animation.m` | Render robot movement |
+| `button_*.m` | GUI callbacks for control |
+
+---
+
+## 🚀 How to Run
+
+1. Open MATLAB (R2021a+ recommended)  
+2. Run `BTL_robot.fig`  
+3. Select mode:  
+   - Forward → input joint angles  
+   - Inverse → input position  
+4. Toggle animation, workspace, and trajectory  
+5. Observe plots and 3D movement
+
+---
+
+## 📌 Requirements
+
+- MATLAB (R2021a or newer)
+- 3D plotting support
+- GUIDE/AppDesigner compatible
+
+---
 
 ## 👨‍💻 Author
+
 Nguyen Tu Tai  
-📫 [tainguyentu.work@gmail.com](mailto:tainguyentu.work@gmail.com)  
+📧 [tainguyentu.work@gmail.com](mailto:tainguyentu.work@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/nguyentutai0502)
 
 ---
 
-> *This project was developed as part of the Robotics course and demonstrates proficiency in robot kinematics, trajectory design, MATLAB scripting, and user interface design.*
+> *Developed as a robotics course project to demonstrate understanding of kinematic modeling, simulation, and GUI design.*
+
+
 
