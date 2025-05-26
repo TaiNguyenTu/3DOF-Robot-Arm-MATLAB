@@ -19,22 +19,22 @@ This project simulates the **forward and inverse kinematics** of a 3-DOF articul
 ## 📸 Interface Snapshots
 
 ### 🔧 Full GUI Overview
-![GUI](screenshots/GUI.png)
+![GUI](GUI.png)
 
 ### 🔄 Choosing Inverse Kinematic Solution
-![Choose IK](screenshots/choose_Inverse.png)
+![Choose IK](choose Inverse.png)
 
 ### 🚫 Inverse Kinematic (No Trajectory)
-![IK only](screenshots/Inverse not Trajectory Planning.png)
+![IK only](Inverse not Trajectory Planning.png)
 
 ### ✅ Inverse Kinematic + Trajectory Planning
-![IK+Trajectory](screenshots/Inverse Trajectory Planning.png)
+![IK+Trajectory](Inverse Trajectory Planning.png)
 
 ### 🌀 Kinematic Mode (No Workspace)
-![Kinematic Only](screenshots/Kinematic not workspace.png)
+![Kinematic Only](Kinematic not workspace.png)
 
 ### 🌐 Workspace Visualization
-![Workspace](screenshots/kinematic workspace.png)
+![Workspace](kinematic workspace.png)
 
 ---
 
