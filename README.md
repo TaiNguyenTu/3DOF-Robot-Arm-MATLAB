@@ -18,9 +18,9 @@ This project simulates the **forward and inverse kinematics** of a 3-DOF articul
 
 ## 📸 Interface Snapshots
 
-![GUI](screenshots/GUI.png)
-![Inverse Kinematics](screenshots/Inverse_Trajectory_Planning.png)
-![Workspace Visualization](screenshots/Kinematic_workspace.png)
+![GUI](GUI.png)
+![Inverse Kinematics](Inverse_Trajectory_Planning.png)
+![Workspace Visualization](Kinematic_workspace.png)
 
 ---
 
