@@ -6,13 +6,13 @@ This project simulates the **forward and inverse kinematics** of a 3-DOF articul
 
 ## 🎯 Key Features
 
-- ✔️ **Forward Kinematics** – Compute end-effector position from joint angles  
-- ✔️ **Inverse Kinematics** – Solve multiple solutions, auto filter by joint limits  
-- ✔️ **Trajectory Planning** – Smooth motion with velocity/acceleration constraints  
-- ✔️ **Workspace Visualization** – Toggle workspace boundary  
-- ✔️ **Kalman Filter (optional)** – Smoothing velocity signal  
-- ✔️ **Real-time Animation** – Plot joint states and 3D movement  
-- ✔️ **Intuitive GUI** – Built with `.fig` file + button callbacks
+✔️ **Forward Kinematics** – Compute end-effector position from joint angles  
+✔️ **Inverse Kinematics** – Solve multiple solutions, auto filter by joint limits  
+✔️ **Trajectory Planning** – Smooth motion with velocity/acceleration constraints  
+✔️ **Workspace Visualization** – Toggle workspace boundary  
+✔️ **Kalman Filter (optional)** – Smoothing velocity signal  
+✔️ **Real-time Animation** – Plot joint states and 3D movement  
+✔️ **Intuitive GUI** – Built with `.fig` file + button callbacks
 
 ---
 
