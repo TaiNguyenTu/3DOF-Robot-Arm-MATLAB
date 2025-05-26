@@ -22,7 +22,7 @@ This project simulates the **forward and inverse kinematics** of a 3-DOF articul
 ![GUI](GUI.png)
 
 ### 🔄 Choosing Inverse Kinematic Solution
-![Choose IK](choose Inverse.png)
+![Choose IK](choose_Inverse.png)
 
 ### 🚫 Inverse Kinematic (No Trajectory)
 ![IK only](Inverse not Trajectory Planning.png)
