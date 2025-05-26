@@ -1,27 +1,38 @@
 # 3-DOF Articulated Robot Arm – Kinematic Simulation in MATLAB
 
-This project simulates the forward and inverse kinematics of a 3-degree-of-freedom articulated robot arm using MATLAB. It features full computation of Jacobian matrix, Denavit-Hartenberg parameters, trajectory planning, and visualization.
+This project simulates the forward and inverse kinematics of a 3-degree-of-freedom articulated robotic arm using MATLAB. The system includes a user-friendly GUI built with `.fig` file and multiple functional `.m` scripts. The robot model is constructed using geometric primitives and visualized in 3D space.
 
 ## 🔧 Features
-- Forward and inverse kinematics using DH method
-- Trajectory planning and velocity/acceleration analysis
-- Kalman filter smoothing (experimental)
-- Interactive visualization with plots and animation
-- Button-based control (forward/inverse mode)
+- Forward Kinematics: Compute end-effector position from joint angles.
+- Inverse Kinematics: Compute joint angles from desired end-effector coordinates.
+- Trajectory Planning: Generate smooth motion with velocity and acceleration control.
+- Kalman Filter: Apply filtering to end-effector signals (optional).
+- Animation: Real-time 3D visualization of robot movement.
+- GUI: Comprehensive control panel for entering inputs, toggling features, and viewing output plots.
 
-## 📁 Key Files
-- `Forward_Kinematic.m`, `Inverse_Kinematic.m` – Core calculations
-- `animation.m` – Simulate arm movement
-- `plot_joint_velocity.m`, `plot_end_effector_velocity.m` – Motion analysis
-- `BTL_robot.fig` – Full MATLAB GUI layout
+## 📂 Key Files
+- `BTL_robot.fig`: Main GUI interface
+- `Forward_Kinematic.m`, `Inverse_Kinematic.m`: Core kinematic calculations
+- `plot_link1.m`, `plot_joint_velocity.m`, etc.: Plotting functions for robot animation
+- `calculate_Trajectory.m`: Trajectory generation logic
+- `kalman_filter.m`: Optional signal filtering
+- `button_forward.m`, `button_inverse.m`: GUI interaction handlers
 
-## 📷 Preview
-_Add GIF or screenshot of simulation here_
+## 📷 GUI Preview
 
-## 🔧 Requirements
+![GUI Screenshot](screenshots/gui_preview.png)
+
+## 🛠 Requirements
 - MATLAB R2021a+
-- Control System Toolbox (optional)
+- App Designer or GUIDE-compatible GUI environment
+- Control System Toolbox (optional but helpful)
 
-## 👤 Author
-Nguyen Tu Tai – [LinkedIn](https://www.linkedin.com/in/nguyentutai0502)
+## 👨‍💻 Author
+Nguyen Tu Tai  
+📫 [tainguyentu.work@gmail.com](mailto:tainguyentu.work@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/nguyentutai0502)
+
+---
+
+> *This project was developed as part of the Robotics course and demonstrates proficiency in robot kinematics, trajectory design, MATLAB scripting, and user interface design.*
 
